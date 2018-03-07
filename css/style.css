@@ -1,0 +1,161 @@
+body {
+    font-family:sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight:lighter;
+    padding:20px 0;
+    color:#666;
+}
+
+h2 {
+    color:#00256c;
+    font-size:24px;
+    font-weight:lighter;
+}
+
+.outerContainer {
+    background-color:#fff;
+    width:100%;
+}
+
+.container {
+    max-width:800px;
+    margin: auto;
+    text-align:center;
+}
+
+.tighter {
+    max-width:600px;
+}
+
+.mainBtn {
+    background: linear-gradient(#0071c5, #3092ff);
+    color:#fff;
+}
+
+.login {
+    background-color:#000f30;
+    color:#fff;
+    border:1px solid #CED4DE;
+}
+
+.button {
+    box-shadow: 2px 5px 0px 2px rgba(0, 0, 0, 0.2);
+    padding:10px 20px;
+    border-radius: 2px;
+    font-size:12px;
+    max-width: 90px;
+    margin:0 5px;
+    
+}
+
+.button:hover {
+    background: linear-gradient(#CED4DE, #CED4DE);
+    color:#333;
+}
+
+.topNav {
+    background-color:#000f30;
+    min-height:50px;
+    padding:10px 20px;
+    text-align:center;
+}
+
+.topNav ul li, .topNav h1, .topNav div, .topNav ul {
+    display:inline-block;
+}
+
+.topNav ul {
+    padding:0 50px;
+}
+
+.topNav ul li {
+    padding: 0 10px;
+    font-size:10px;
+    font-family: sans-serif;
+}
+
+.curveBehind {
+    background-color:#000;
+    height:480px;
+    border-radius: 0 0 50% 50%; 
+    margin-bottom:40px;
+}
+
+.header {
+    background: linear-gradient(#000f30, #4c0080);
+    height:450px;
+    .border-radius: 0 0 75% 75%; 
+}
+
+.headerText {
+    max-width:40%;
+    padding:50px 0;
+    margin:auto;
+    text-align:center;
+}
+
+.headerText h1 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight:lighter;
+    padding-top:10%;
+}
+
+.headerText p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight:lighter;
+    padding:20px 0;
+    color:#fff;
+}
+
+.headerText .button {
+    margin:auto;
+}
+
+.small {
+    font-size:10px;
+    color: #0071c5;
+    font-weight:bold;
+    padding:30px 0 20px;
+}
+
+.quote p {
+    font-size:18px;
+    color:#0071c5;
+    text-align: left;
+    width:60%;
+    margin:auto;
+    line-height:26px;
+    padding-bottom:50px;
+}
+
+.half {
+    width:50%;
+    float: left;
+    text-align:left;
+}
+
+.aboutusBand {
+    background-image: url('images/street.jpg');
+    background: linear-gradient(#000f30, #4c0080);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 240px;
+    color:#fff;
+    padding:30px 20px 5px;
+    box-sizing: border-box;
+}
+
+.light {
+    color:#fff;
+}
+
+.dark {
+    color:#333;
+}
