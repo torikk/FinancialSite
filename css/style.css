@@ -78,6 +78,18 @@ h2 {
     font-family: sans-serif;
 }
 
+.topNav ul li a {
+    text-decoration:none;
+    color:#fff;
+    transition:all 1s;
+}
+
+.topNav ul li a:hover {
+    color:#ffcc00;
+    border-bottom:1px solid #000f30;
+}
+
+
 .curveBehind {
     background-color:#000;
     height:480px;
